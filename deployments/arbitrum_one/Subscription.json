@@ -1,0 +1,220 @@
+{
+  "address": "0x3DEF9EfFF1447A9708E55fbDBd78EbbCb9bE0D13",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_usdt",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_duration",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "duration",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "endOfSubscription",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "isSubscribed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "pay",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "timeLeft",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "usdt",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x5f5653a9ae4f498bbeefc016b002887ba6e7dc827f0af9489a9ffbb6ba7df3ad",
+  "receipt": {
+    "to": null,
+    "from": "0xab918d486c61ADd7c577F1af938117bBD422f088",
+    "contractAddress": "0x3DEF9EfFF1447A9708E55fbDBd78EbbCb9bE0D13",
+    "transactionIndex": 1,
+    "gasUsed": "483397",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x25270d2ce00910580217cba9e3ea1df0509e4906e951392444ad744b7ad3e18c",
+    "transactionHash": "0x5f5653a9ae4f498bbeefc016b002887ba6e7dc827f0af9489a9ffbb6ba7df3ad",
+    "logs": [],
+    "blockNumber": 283497418,
+    "cumulativeGasUsed": "483397",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    100
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "66a9d8807388559d8ade3cd5f46364df",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_usdt\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_duration\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"duration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"endOfSubscription\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"isSubscribed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"pay\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"timeLeft\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"usdt\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Subscription.sol\":\"Subscription\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[]},\"sources\":{\"contracts/Subscription.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.10;\\n\\n\\ninterface IERC20 {\\n    function transferFrom(address from, address to, uint256 amount) external returns (bool);\\n}\\n\\ncontract Subscription {\\n    address public owner;\\n    address public usdt;\\n    uint256 public duration;\\n    mapping(address => uint256) public endOfSubscription;\\n\\n    constructor(address _usdt, uint256 _duration) {\\n        owner = msg.sender;\\n        usdt = _usdt;\\n        duration = _duration;\\n    }\\n\\n    function pay(uint256 _amount) public {\\n        IERC20(usdt).transferFrom(msg.sender, owner, _amount);\\n        endOfSubscription[msg.sender] = block.timestamp > endOfSubscription[msg.sender] ? block.timestamp + _amount * duration : endOfSubscription[msg.sender] + _amount * duration;\\n    }\\n\\n    function isSubscribed(address _user) public view returns (bool) {\\n        return endOfSubscription[_user] > block.timestamp;\\n    }\\n\\n    function timeLeft(address _user) public view returns (uint256) {\\n        return endOfSubscription[_user] > block.timestamp ? endOfSubscription[_user] - block.timestamp : 0;\\n    }    \\n}\\n\\n\",\"keccak256\":\"0x6860cc45714fe386f6c256ecdb0584e44a608b8c740018df1630704cb6c9801a\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060405161046a38038061046a833981016040819052602c916062565b60008054336001600160a01b031991821617909155600180549091166001600160a01b039390931692909217909155600255609a565b60008060408385031215607457600080fd5b82516001600160a01b0381168114608a57600080fd5b6020939093015192949293505050565b6103c1806100a96000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80638da5cb5b1161005b5780638da5cb5b146100dc578063b92ae87c146100ef578063c290d6911461012a578063c8a47f5b1461013f57600080fd5b80630fb5a6b4146100825780632f48ab7d1461009e578063405c649c146100c9575b600080fd5b61008b60025481565b6040519081526020015b60405180910390f35b6001546100b1906001600160a01b031681565b6040516001600160a01b039091168152602001610095565b61008b6100d73660046102b4565b61015f565b6000546100b1906001600160a01b031681565b61011a6100fd3660046102b4565b6001600160a01b0316600090815260036020526040902054421090565b6040519015158152602001610095565b61013d6101383660046102e4565b6101af565b005b61008b61014d3660046102b4565b60036020526000908152604090205481565b6001600160a01b03811660009081526003602052604081205442106101855760006101a9565b6001600160a01b0382166000908152600360205260409020546101a990429061032c565b92915050565b6001546000546040517f23b872dd0000000000000000000000000000000000000000000000000000000081523360048201526001600160a01b039182166024820152604481018490529116906323b872dd906064016020604051808303816000875af1158015610223573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610247919061033f565b5033600090815260036020526040902054421161028a5760025461026b9082610361565b336000908152600360205260409020546102859190610378565b6102a1565b6002546102979082610361565b6102a19042610378565b3360009081526003602052604090205550565b6000602082840312156102c657600080fd5b81356001600160a01b03811681146102dd57600080fd5b9392505050565b6000602082840312156102f657600080fd5b5035919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b818103818111156101a9576101a96102fd565b60006020828403121561035157600080fd5b815180151581146102dd57600080fd5b80820281158282048414176101a9576101a96102fd565b808201808211156101a9576101a96102fd56fea26469706673582212201c25475f7e3799c26b12148034b03264401836484ed1e1b1de14eb1eceaa61de64736f6c634300081b0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c80638da5cb5b1161005b5780638da5cb5b146100dc578063b92ae87c146100ef578063c290d6911461012a578063c8a47f5b1461013f57600080fd5b80630fb5a6b4146100825780632f48ab7d1461009e578063405c649c146100c9575b600080fd5b61008b60025481565b6040519081526020015b60405180910390f35b6001546100b1906001600160a01b031681565b6040516001600160a01b039091168152602001610095565b61008b6100d73660046102b4565b61015f565b6000546100b1906001600160a01b031681565b61011a6100fd3660046102b4565b6001600160a01b0316600090815260036020526040902054421090565b6040519015158152602001610095565b61013d6101383660046102e4565b6101af565b005b61008b61014d3660046102b4565b60036020526000908152604090205481565b6001600160a01b03811660009081526003602052604081205442106101855760006101a9565b6001600160a01b0382166000908152600360205260409020546101a990429061032c565b92915050565b6001546000546040517f23b872dd0000000000000000000000000000000000000000000000000000000081523360048201526001600160a01b039182166024820152604481018490529116906323b872dd906064016020604051808303816000875af1158015610223573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610247919061033f565b5033600090815260036020526040902054421161028a5760025461026b9082610361565b336000908152600360205260409020546102859190610378565b6102a1565b6002546102979082610361565b6102a19042610378565b3360009081526003602052604090205550565b6000602082840312156102c657600080fd5b81356001600160a01b03811681146102dd57600080fd5b9392505050565b6000602082840312156102f657600080fd5b5035919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b818103818111156101a9576101a96102fd565b60006020828403121561035157600080fd5b815180151581146102dd57600080fd5b80820281158282048414176101a9576101a96102fd565b808201808211156101a9576101a96102fd56fea26469706673582212201c25475f7e3799c26b12148034b03264401836484ed1e1b1de14eb1eceaa61de64736f6c634300081b0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 15,
+        "contract": "contracts/Subscription.sol:Subscription",
+        "label": "owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 17,
+        "contract": "contracts/Subscription.sol:Subscription",
+        "label": "usdt",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_address"
+      },
+      {
+        "astId": 19,
+        "contract": "contracts/Subscription.sol:Subscription",
+        "label": "duration",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 23,
+        "contract": "contracts/Subscription.sol:Subscription",
+        "label": "endOfSubscription",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_mapping(t_address,t_uint256)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

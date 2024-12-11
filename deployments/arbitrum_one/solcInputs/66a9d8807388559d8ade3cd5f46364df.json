@@ -1,0 +1,36 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Subscription.sol": {
+      "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.10;\n\n\ninterface IERC20 {\n    function transferFrom(address from, address to, uint256 amount) external returns (bool);\n}\n\ncontract Subscription {\n    address public owner;\n    address public usdt;\n    uint256 public duration;\n    mapping(address => uint256) public endOfSubscription;\n\n    constructor(address _usdt, uint256 _duration) {\n        owner = msg.sender;\n        usdt = _usdt;\n        duration = _duration;\n    }\n\n    function pay(uint256 _amount) public {\n        IERC20(usdt).transferFrom(msg.sender, owner, _amount);\n        endOfSubscription[msg.sender] = block.timestamp > endOfSubscription[msg.sender] ? block.timestamp + _amount * duration : endOfSubscription[msg.sender] + _amount * duration;\n    }\n\n    function isSubscribed(address _user) public view returns (bool) {\n        return endOfSubscription[_user] > block.timestamp;\n    }\n\n    function timeLeft(address _user) public view returns (uint256) {\n        return endOfSubscription[_user] > block.timestamp ? endOfSubscription[_user] - block.timestamp : 0;\n    }    \n}\n\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
